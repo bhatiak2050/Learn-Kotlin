@@ -11,7 +11,8 @@ fun main(args: Array<String>)
         var b = stdin.nextInt()
         var c = stdin.nextInt()
 
-        var greatest = if(a>b && a>c) a else if(b>a&&b>c) b else c
+        //var greatest = if(a>b && a>c) a else if(b>a&&b>c) b else c
+        var greatest = if(a>b){if(a>c) a else c} else{if(b>c) b else c}
         println("The greatest number is $greatest\n")
-    }while (a*b*c != 0)
+    }while (a+b+c != 0)
 }
