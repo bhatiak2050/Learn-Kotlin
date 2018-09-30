@@ -1,6 +1,6 @@
 //Program to print n'th number in the fibonacci series using tail recursion
 import java.math.BigInteger
-fun fibo(n: Int, a: BigInteger, b: BigInteger): BigInteger{
+tailrec fun fibo(n: Int, a: BigInteger, b: BigInteger): BigInteger{
     return if(n==0) a else fibo(n-1, b, a+b)
 }
 
