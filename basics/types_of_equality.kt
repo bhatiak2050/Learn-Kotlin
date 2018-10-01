@@ -1,3 +1,5 @@
+/* Link: https://www.baeldung.com/kotlin-equality-operators */
+
 fun main(args: Array<String>) {
     var a = Integer(5)
     var b = Integer(5)    
