@@ -1,4 +1,4 @@
-//Program to perform Linear Search in Kotlin
+//Program to perform Binary Search in Kotlin
 import java.util.Scanner
 
 fun bsearch(a: IntArray, size: Int, key: Int): Int{
